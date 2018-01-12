@@ -6,7 +6,6 @@ var expressLayouts = require('express-ejs-layouts');
 var app = express();
 var port = process.env.PORT || 3000;
 
-
 //Setting template engine
 app.set('view engine', 'ejs')
 app.use(expressLayouts);
