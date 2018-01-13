@@ -904,11 +904,6 @@ blockquote {
   justify-content: space-around;
 }
 
-.galleryimage {
-  width: 100%;
-  height: 100%;
-}
-
 html.w-mod-js *[data-ix="fade-in-bottom-page-loads"] {
   opacity: 0;
   -webkit-transform: translate(0px, 50px);

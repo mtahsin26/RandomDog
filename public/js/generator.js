@@ -13,6 +13,6 @@ function reload(){
         .done(function( data ) {
         
         console.log( data.urls.regular );
-        $('#dogLink').html('<img src=' + data.urls.regular + ' id="dogImage" sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px" class="galleryimage">');
+        $('#dogLink').html('<img src=' + data.urls.regular + ' id="dogImage" style="max-height: 100%;" sizes="(max-width: 767px) 100vw, (max-width: 991px) 728px, 940px" class="galleryimage">');
     });
 }
