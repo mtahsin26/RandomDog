@@ -3,7 +3,7 @@
 function reload(){
     //window.location.reload();
     $( document ).ajaxSend(function( event, request, settings ) {
-        $( "#dogLink" ).html( "<li>Hol up, Lycos bout to come through</li>" );
+        $( "#dogLink" ).html( "<li>Fetching new Dog !!</li>" );
     });
 
     $.ajax({
